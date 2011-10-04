@@ -206,7 +206,7 @@ public class ApiParser {
 					}
 					bufToString.append(" ).replaceFirst(\"&\", \"\")");
 					buf.append("public String toUrl(){\n");
-					buf.append("return \"/" + current.getName() + "/?\" " + bufToString.toString() + ";\n");
+					buf.append("return \"?\" " + bufToString.toString() + ";\n");
 					buf.append("}\n\n");
 
 					buf.append("}\n");
