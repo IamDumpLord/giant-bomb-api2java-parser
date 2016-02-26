@@ -1,0 +1,1 @@
+This tool parses to online API documentation for the GiantBomb API and creates a couple of helper classes that may be used to simplify the URL building process.
